@@ -9,7 +9,9 @@ public class MainApplication {
         System.out.println("Algorytmy");
 
         int AdventDay1Result = AdventDay1.readDateFromFile();
-        int AdventDay2Result = AdventDay2.getResultAdventDay2();
+        int AdventDay2Part1Result = AdventDay2.getResultAdventDay2Part1();
+        int AdventDay2Part2Result = AdventDay2.getResultAdventDay2Part2();
+
 
     }
 }
