@@ -7,7 +7,7 @@ import java.util.List;
 
 public class AdventDay1 {
 
-    public static int readDateFromFile() throws IOException {
+    public static int getResultAdventDay1() throws IOException {
 
         List<String> dateFromFile = Files.readAllLines(Paths.get("src/main/resources/inputs/adventOfCodeDay1.txt"));
 
