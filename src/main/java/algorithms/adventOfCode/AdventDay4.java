@@ -10,8 +10,6 @@ import java.util.stream.Collectors;
 public class AdventDay4 {
 
     public static List<String> validKeys = Arrays.asList("hcl", "iyr", "hgt", "pid", "byr", "eyr", "ecl");
-    public static int validPassports;
-    public static StringBuilder fullData = new StringBuilder();
     public static  List<String> dateFromFile;
 
     static {
@@ -24,13 +22,14 @@ public class AdventDay4 {
 
     public static int getResultAdventDay4Part1() {
 
+        StringBuilder fullData = new StringBuilder();
+        int validPassports;
         dateFormater(fullData);
 
         validPassports = (int) Arrays.stream(fullData.toString().split(System.lineSeparator() + System.lineSeparator())).map(s -> s.replace(System.lineSeparator(), " "))
                 .map(s -> Arrays.stream(s.split(" ")).map(s1 -> s1.split(":")).collect(Collectors.toMap(strings -> strings[0], o -> o[1]))).filter(AdventDay4::isValidPart1).count();
 
             return validPassports;
-
     }
 
     public static  boolean isValidPart1(Map<String, String> data) {
@@ -41,6 +40,8 @@ public class AdventDay4 {
 
     public static int getResultAdventDay4Part2() {
 
+        int validPassports;
+        StringBuilder fullData = new StringBuilder();
         dateFormater(fullData);
 
         validPassports = (int) Arrays.stream(fullData.toString().split(System.lineSeparator() + System.lineSeparator())).map(s -> s.replace(System.lineSeparator(), " "))
