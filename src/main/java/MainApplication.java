@@ -1,7 +1,4 @@
-import algorithms.adventOfCode.AdventDay1;
-import algorithms.adventOfCode.AdventDay2;
-import algorithms.adventOfCode.AdventDay3;
-import algorithms.adventOfCode.AdventDay4;
+import algorithms.adventOfCode.*;
 
 import java.io.IOException;
 
@@ -16,10 +13,11 @@ public class MainApplication {
         int AdventDay3Part1Result = AdventDay3.getResultAdventDay3Part1(3, 1);
         long AdventDay3Part2Result = AdventDay3.getResultAdventDay3Part2();
         int AdventDay4ResultPart1 = AdventDay4.getResultAdventDay4Part1();
-
-
         int AdventDay4ResultPart2 = AdventDay4.getResultAdventDay4Part2();
-        System.out.println(AdventDay4ResultPart2);
+        int AdventDay5ResultPart1 = AdventDay5.getResultAdventDay5Part1();
+
+
+
 
 
     }
