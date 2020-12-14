@@ -69,13 +69,12 @@ public class AdventDay6 {
             }
             for (int i=0; i < s.chars().filter(ch -> ch ==';').count()+1; i++) {
                 String part =  s.split(";")[i];
-
                 charsRestAdder = part.toCharArray();
                 for (char c: charsRestAdder) {
                     if (charSet.contains(c)) {
                         counter += +1;
                     } else {
-                        charSet.add(c);
+                        //charSet.add(c);
                     }
                 }
             }
