@@ -1,4 +1,4 @@
-package algorithms.spoj.blue;
+package algorithms.spoj.tutorial.blue;
 
 import java.util.Arrays;
 import java.util.Scanner;

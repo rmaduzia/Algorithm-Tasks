@@ -1,4 +1,4 @@
-package algorithms.spoj.blue;
+package algorithms.spoj.classical.blue;
 
 import java.util.ArrayList;
 import java.util.Arrays;

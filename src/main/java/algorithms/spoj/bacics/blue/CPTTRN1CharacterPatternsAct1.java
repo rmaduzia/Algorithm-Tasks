@@ -1,4 +1,4 @@
-package algorithms.spoj.blue;
+package algorithms.spoj.bacics.blue;
 
 import java.util.*;
 
