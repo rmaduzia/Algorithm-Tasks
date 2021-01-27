@@ -12,7 +12,7 @@ public class AdventDay6 {
 
     public static int getResultAdventDay6Part1() throws IOException {
 
-        List<String> dateFromFiles = Files.readAllLines(Paths.get("src/main/resources/inputs/adventOfCodeDay6.txt"));
+        List<String> dateFromFiles = Files.readAllLines(Paths.get("src/main/resources/inputs/adventOfCode/adventOfCodeDay6.txt"));
         StringBuilder builder = new StringBuilder();
         int counter = 0;
 

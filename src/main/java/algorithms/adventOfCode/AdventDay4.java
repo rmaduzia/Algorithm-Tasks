@@ -14,7 +14,7 @@ public class AdventDay4 {
 
     static {
         try {
-            dateFromFile = Files.readAllLines(Paths.get("src/main/resources/inputs/adventOfCodeDay4.txt"));
+            dateFromFile = Files.readAllLines(Paths.get("src/main/resources/inputs/adventOfCode/adventOfCodeDay4.txt"));
         } catch (IOException e) {
             e.printStackTrace();
         }

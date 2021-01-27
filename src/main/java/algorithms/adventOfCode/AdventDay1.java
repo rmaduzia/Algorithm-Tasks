@@ -9,7 +9,7 @@ public class AdventDay1 {
 
     public static int getResultAdventDay1() throws IOException {
 
-        List<String> dateFromFile = Files.readAllLines(Paths.get("src/main/resources/inputs/adventOfCodeDay1.txt"));
+        List<String> dateFromFile = Files.readAllLines(Paths.get("src/main/resources/inputs/adventOfCode/adventOfCodeDay1.txt"));
 
         for (int i=0; i<dateFromFile.size(); i++) {
             for (String s : dateFromFile) {

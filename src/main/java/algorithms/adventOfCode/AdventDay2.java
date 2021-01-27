@@ -11,7 +11,7 @@ public class AdventDay2 {
     public static int getResultAdventDay2Part1() throws IOException {
 
         int amountOfValidPassword = 0;
-        List<String> dateFromFile = Files.readAllLines(Paths.get("src/main/resources/inputs/adventOfCodeDay2.txt"));
+        List<String> dateFromFile = Files.readAllLines(Paths.get("src/main/resources/inputs/adventOfCode/adventOfCodeDay2.txt"));
 
         for (String s : dateFromFile) {
 

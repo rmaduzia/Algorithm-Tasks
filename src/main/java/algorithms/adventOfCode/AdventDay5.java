@@ -10,7 +10,7 @@ public class AdventDay5 {
 
     public static int getResultAdventDay5Part1() throws IOException {
 
-        List<String> dateFromFile = Files.readAllLines(Paths.get("src/main/resources/inputs/adventOfCodeDay5.txt"));
+        List<String> dateFromFile = Files.readAllLines(Paths.get("src/main/resources/inputs/adventOfCode/adventOfCodeDay5.txt"));
 
         int rowCol;
         int max=0;
